@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Articles Viewer</title>
+  <link rel="icon" type="image/png" href="{{ asset('images/article.png') }}" />
+  <link rel="stylesheet" href="{{ asset('CSS/articles_style.css') }}">
+  
+</head>
+<body>
+
+  <div class="article-container">
+    <div class="left-panel">
+      <div class="search-bar">
+        <h3>Search & Filter</h3>
+        <input type="text" id="searchInput" placeholder="Search articles...">
+        <select id="filterSelect">
+          <option value="">All</option>
+          <option value="published">Published</option>
+          <option value="draft">Draft</option>
+          <option value="archived">Archived</option>
+        </select>
+      </div>
+    </div>
+  </div>
+
+  <div class="right-panel"></div>
+  <h1>All Articles</h1>
+  <div id="articleList"></div>
+
+  <script type="module">
+    import { initializeApp } from "https://www.gstatic.com/firebasejs/12.1.0/firebase-app.js";
+    import { getFirestore } from "https://www.gstatic.com/firebasejs/12.1.0/firebase-firestore.js";
+    import { attachSearchInput } from "{{ asset('js/searchFilter.js') }}";
+    import { initArticlesView } from "{{ asset('js/articles.js') }}";
+
+    const firebaseConfig = {
+      apiKey: "AIzaSyDIGTf8SciNEacT9MQITl9uGPah8ZSjYsM",
+      authDomain: "articles-604f9.firebaseapp.com",
+      projectId: "articles-604f9",
+      storageBucket: "articles-604f9.firebasestorage.app",
+      messagingSenderId: "930544693618",
+      appId: "1:930544693618:web:d4d76e656fd26a3794edeb",
+      measurementId: "G-PF7YYFY7EZ"
+    };
+
+    const app = initializeApp(firebaseConfig);
+    const db = getFirestore(app);
+
+    window.db = db; // attach globally for searchFilter.js
+    initArticlesView(db);
+    attachSearchInput(db);
+  </script>
+
+</body>
+</html>

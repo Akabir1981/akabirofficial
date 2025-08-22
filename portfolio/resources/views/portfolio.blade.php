@@ -1,0 +1,681 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My Portfolio</title>
+    <link rel="icon" type="image/png" href="images/Favicon.png" />
+    <link rel="stylesheet" href="{{ asset('css/style.css') }}">
+    <!--boxicon-->
+    <link
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+<!-- Add this in your <head> -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+ 
+
+    <!--custom css-->
+  </head>
+
+  <body>
+    <!--header-->
+    <header class="active">
+      <a href="#" class="logo"><span>A.K</span>abir.</a>
+
+      <i class="bx bx-menu" id="menu-icon"></i>
+
+      <nav>
+        <a href="#" class="active">Home</a>
+        <a href="#">Career</a>
+        <a href="#">Services</a>
+        <a href="#">Resume</a>
+        <a href="#">Portfolio</a>
+        <a href="#">Contact</a>
+      </nav>
+    </header>
+
+    <!-- bars background -->
+    <div class="bars-box active">
+      <div class="bar" style="--i: 6"></div>
+      <div class="bar" style="--i: 5"></div>
+      <div class="bar" style="--i: 4"></div>
+      <div class="bar" style="--i: 3"></div>
+      <div class="bar" style="--i: 2"></div>
+      <div class="bar" style="--i: 1"></div>
+    </div>
+
+    <!--Home section-->
+    <section class="home active">
+      <div class="home-details">
+        <h1>Alamgir Kabir</h1>
+        <h2>
+          I'm a
+          <span style="--i: 4" data-text="Procurement Manager">Procurement Manager</span>
+          <span style="--i: 3" data-text="SCD Manager">SCD Manager</span>
+          <span style="--i: 2" data-text="ERP Consultant">ERP Consultant</span>
+          <span style="--i: 1" data-text="Process Optimizer">Process Optimizer</span>
+          <span style="--i: 0" data-text="Coder">Coder</span>
+        </h2>
+
+              
+          <h3>WHY I’M <span>DIFFERENT</span></h3>
+                  <ul class = "custom-bullet">
+                   <li><span>Dual Expertise:</span> Rare combination of hands-on <span>procurement</span> leadership and <span>ERP module</span> design & implementation.</li>
+                    <li> <span>Proven ROI:</span> Delivered measurable cost savings of <span>up to 37%</span> and increased ROI by 40%.</li>
+                    <li> <span>Scale & Scope:</span> Managed large-scale budgets <span>(BDT 30 Crore/month)</span> and complex vendor
+ecosystems.</li>                    
+                    <li><Span>Global Collaboration:</Span> Worked with <span>leading international</span> consulting firms to implement
+<span>world-class</span> procurement processes.</li>
+                    
+                  </ul>
+        
+        <p class = "small-text"> <span>Dual Expertise:</span> Rare combination of hands-on <span>procurement leadership</span> and <span>ERP module
+</span>design & implementation. || <span>Proven ROI:</span> Delivered measurable cost savings of <span>up to 37%</span> and increased ROI by 40%. || <span>Scale & Scope:</span> Managed large-scale budgets <span>(BDT 30 Crore/month)</span> and complex vendor
+ecosystems. || <Span>Global Collaboration:</Span> Worked with <span>leading international</span> consulting firms to implement
+<span>world-class</span> procurement processes.</p>
+        
+        <div class="btn-sci">
+          <a
+            href="images/SM_Alamgir_Kabir_CV_10-08-25.pdf"
+            target="_blank"
+            class="btn">Download CV</a>
+          <div class="sci">
+            <a
+              href="https://www.linkedin.com/in/sm-alamgir-kabir/"
+              target="_blank"
+              ><i class="bx bxl-linkedin"></i
+            ></a>
+            <a href="https://www.facebook.com/kabir9368" target="_blank"
+              ><i class="bx bxl-facebook-circle"></i
+            ></a>
+            <a href="https://github.com/" target="_blank"
+              ><i class="bx bxl-github"></i
+            ></a>
+            <a href="http://127.0.0.1:8000/articles/manage" target="_blank"><i class="bx bxl-discord-alt"></i></a>
+            <a href="http://127.0.0.1:8000/articles/admin" target="_blank"><i class="bx bxl-youtube"></i></a>
+            <a href="http://127.0.0.1:8000/articles/view" target="_blank"><i class='bx bx-book-content'></i></a>
+          </div>
+        </div>
+      </div>
+
+      <div class="profile-img">
+        <div class="img-box">
+          <div class="img-item">
+            <img src="images/profile_img.png" alt="Profile Image" />
+          </div>
+        </div>
+      </div>
+    </section>
+
+
+<!--Career section-->
+    <section class="career" id="career">
+      <h2 class="heading">Professional <span>Profile</span></h2>
+      <div class = career-container>
+     <div class = "career-box">
+       <div class="icon">
+            <i class="fas fa-building"></i>
+         
+          </div>
+      <h3>Corporate World</h3>
+      <p>I began my corporate journey in April 2007 with Knit Asia Ltd, where I played a pivotal role in managing end-to-end business processes and supply chain operations across the Apparel, Textile, and Ready-Made Garments industries, including:<br><br>
+
+🔹 Apparel: Spinning<br>
+
+🔹 Textile: Knitting, Dyeing, Finishing, All-over Printing<br>
+
+🔹 Ready-Made Garments: Center Cutting, Printing, Embroidery, Sewing<br><br>
+
+Over the years, I have continually enhanced my skills, contributed to organizational growth, and successfully executed high-impact projects, including:<br><br>
+
+🔹 Expanding operations from 3 factories to 11 factories<br>
+
+🔹 Setting up a 200-line Green Factory from building to live production<br>
+
+🔹 Procuring all types of capital machinery and spare parts<br>
+
+🔹 Leading compliance projects such as Fire Hydrant Systems, Sprinkler Systems, and Fire Alarm Systems across 5 factories <br>
+
+🔹 Managing large-scale electrical projects and PU-floor installations for production facilities <br><br>
+
+My commitment to service excellence has been recognized through multiple awards for consistently delivering exceptional results. Over my career, I have progressed from Purchase Coordinator to Supply Chain Manager (Head of Procurement), gaining expertise in driving operational efficiency, cost-effectiveness, and end-to-end procurement strategies.<br><br>
+
+In 2020, I expanded my experience to the Polymer Industry, overseeing every aspect of the supply chain from Order to Delivery, including procurement. I continue to leverage my extensive experience to drive growth, optimize operations, and deliver results across industries.
+<br><br>      
+Working with me means you get a proven, results-oriented approach that delivers efficiency, cost savings, and scalable business processes tailored to your organization.</p>
+
+       
+     </div>
+
+     <div class = "career-box">
+        <div class="icon">
+           <i class="fas fa-cogs"></i>
+         
+          </div>
+      <h3>ERP & Business Process Consultancy</h3>
+      <p>I began my ERP journey in 2016 with Oracle E-Business Suite (EBS), where I served as a core member of the implementation team and the designer of the Procure-to-Pay (P2P) module. Later, our team was entrusted with the responsibility of implementing the entire ERP suite across the group. Today, I believe I am among the top ERP consultants in Bangladesh.<br>
+       <br> Alongside my corporate career, I have been actively engaged in freelancing, providing consultancy and solutions in ERP implementation, business process optimization, and supply chain strategy for diverse clients. <br><br>Through freelancing, I help organizations solve real-world challenges, streamline operations, and achieve measurable results, bringing the same expertise that drove growth in large manufacturing and polymer industries to smaller businesses and startups.<br><br>
+
+Why choose my services:<br><br>
+
+🔹 Increase efficiency: Streamline operations to reduce process time by up to 30%<br>
+
+🔹 Cost optimization: Identify and implement savings opportunities, achieving 10–20% reduction in operational costs<br>
+
+🔹 Scalable systems: Build ERP solutions and workflows that can grow as your business grows<br>
+
+🔹 Faster order-to-delivery: Optimize supply chain and production processes to improve cycle time by 20–25%<br>
+
+🔹 Compliance and risk mitigation: Ensure 100% adherence to safety, regulatory, and operational standards<br>
+
+🔹 Data-driven decision making: Implement reporting and analytics tools to give real-time insights<br><br>
+
+My USP: Unlike generic consultants, I combine 16+ years of hands-on industry experience with practical ERP expertise. I don’t just advise—I implement actionable solutions, ensuring measurable outcomes, seamless adoption by teams, and sustainable growth.<br><br>
+
+Working with me means you get a proven, results-oriented approach that delivers efficiency, cost savings, and scalable business processes tailored to your organization.</p></div>
+        
+     <div class = "career-box">
+     <div class="icon">
+    <i class="fas fa-user-tie"></i>
+         
+          </div>
+      <h3>Freelancing & Digital Services</h3>
+      <p>I offer specialized freelancing services targeting international clients, helping businesses establish a strong digital presence and optimize operations online. My services include:<br><br>
+
+🔹 Website Development: Custom, responsive, and SEO-friendly websites tailored to client needs<br>
+
+🔹 Video Editing & Content Creation: Engaging visuals for marketing, social media, and presentations<br>
+
+🔹 Email Marketing: Design, automation, and campaign optimization to boost client engagement<br>
+
+🔹 E-Commerce Setup: Shopify, WooCommerce, and other platforms for global online sales<br>
+
+🔹 Digital Process Optimization: Streamline online workflows, sales funnels, and client management<br><br>
+
+By combining technical skills with business insights, I help clients save time, increase efficiency, and expand their reach to global markets. Every project is delivered with professional quality, measurable results, and on-time execution, ensuring your brand stands out in competitive international marketplaces.</p></div>
+
+     </div>
+          
+     </div>
+    </section>
+
+
+    
+    <!--Service section-->
+    <section class="service">
+      <h2 class="heading">My <span>Service</span></h2>
+      <div class="services-container">
+        <div class="services-box">
+          <div class="icon">
+            <i class="bx bx-code-alt"></i>
+            <a href="#" class="href"><i class="bx bx-arrow-back"></i></a>
+          </div>
+          <h3>Web Development</h3>
+          <p>
+           We create modern, fast-loading websites that look great on any device.
+Focusing on custom design and user-friendly interfaces, we aim to meet your business needs.
+Our SEO-friendly and responsive designs help strengthen your online presence.
+Our skilled developer team delivers your projects quickly and reliably.
+          </p>
+        </div>
+
+        <div class="services-box">
+          <div class="icon">
+            <i class="bx bxs-paint"></i>
+            <a href="#" class="href"><i class="bx bx-arrow-back"></i></a>
+          </div>
+          <h3>UI/UX Design</h3>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus
+            commodi veniam aut, excepturi architecto voluptate dolor reiciendis
+            laudantium minus repudiandae consectetur non consequatur in sint id
+            et! Omnis, quibusdam accusantium.
+          </p>
+        </div>
+
+        <div class="services-box">
+          <div class="icon">
+            <i class="bx bx-palette"></i>
+            <a href="#" class="href"><i class="bx bx-arrow-back"></i></a>
+          </div>
+          <h3>Graphics Design</h3>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus
+            commodi veniam aut, excepturi architecto voluptate dolor reiciendis
+            laudantium minus repudiandae consectetur non consequatur in sint id
+            et! Omnis, quibusdam accusantium.
+          </p>
+        </div>
+
+        <div class="services-box">
+          <div class="icon">
+            <i class="bx bx-trending-up"></i>
+            <a href="#" class="href"><i class="bx bx-arrow-back"></i></a>
+          </div>
+          <h3>Seo</h3>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus
+            commodi veniam aut, excepturi architecto voluptate dolor reiciendis
+            laudantium minus repudiandae consectetur non consequatur in sint id
+            et! Omnis, quibusdam accusantium.
+          </p>
+        </div>
+
+        <div class="services-box">
+          <div class="icon">
+            <i class="bx bx-slideshow"></i>
+            <a href="#" class="href"><i class="bx bx-arrow-back"></i></a>
+          </div>
+          <h3>Video Editing</h3>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus
+            commodi veniam aut, excepturi architecto voluptate dolor reiciendis
+            laudantium minus repudiandae consectetur non consequatur in sint id
+            et! Omnis, quibusdam accusantium.
+          </p>
+        </div>
+
+        <div class="services-box">
+          <div class="icon">
+            <i class="bx bx-camera"></i>
+            <a href="#" class="href"><i class="bx bx-arrow-back"></i></a>
+          </div>
+          <h3>Photography</h3>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus
+            commodi veniam aut, excepturi architecto voluptate dolor reiciendis
+            laudantium minus repudiandae consectetur non consequatur in sint id
+            et! Omnis, quibusdam accusantium.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!--Resume Section-->
+    <section class="resume">
+      <div class="resume-container">
+        <div class="resume-box">
+          <h2>Why hire me?</h2>
+          <p class="desc">
+            I drive business growth and profitability, not just fulfill tasks.
+            Working with global teams like KPMG, Metalogic, and Deloitte gave me
+            deep process insights to solve complex problems and deliver
+            excellence. <br />
+            <br />My strong ERP expertise automates and optimizes operations,
+            boosting cost savings, processes, and productivity. I continuously
+            upskill to stay aligned with fast-changing markets and tech. My
+            leadership enhances team performance and ensures shared goals are
+            met.<br /><br />
+            I’m dedicated to driving lasting company success.
+          </p>
+          <button class="resume-btn active">Experience</button>
+          <button class="resume-btn">Education</button>
+          <button class="resume-btn">Skills</button>
+          <button class="resume-btn">About Me</button>
+        </div>
+
+        <div class="resume-box">
+          <div class="resume-detail experience active">
+            <h2 class="heading">My <span>Experience</span></h2>
+            <p class="desc">
+              15+ years mastering procurement across garments to polymers,
+              Negotiated 15% average discounts while leading 27-strong teams,
+              Managed 500+ suppliers & BDT 30 Crore monthly spend with zero
+              compromise, Boosted efficiency 30% with smart Excel & BI
+              innovations — driving results daily.
+            </p>
+            <p class="desc">
+              ১৫ বছরের বেশি সময় ধরে গার্মেন্টস থেকে পলিমার ইন্ডাস্ট্রিতে
+              প্রোকিউরমেন্ট ম্যানেজমেন্টে দক্ষতা অর্জন করেছি। ১৫% গড় ছাড় নিয়ে
+              সফল দর-কষাকষা এবং ২৭ জনের টিম নেতৃত্ব দিয়েছি। ৫০০+ সাপ্লায়ার ও
+              মাসিক ৩০ কোটি টাকা বাজেট দক্ষতার সঙ্গে পরিচালনা করেছি। এক্সেল ও
+              পাওয়ার BI ব্যবহার করে কাজের দক্ষতা ৩০% বৃদ্ধি করেছি।
+            </p>
+
+            <div class="resume-list">
+              <div class="resume-item">
+                <p class="year">2020-present</p>
+                <h3>Sr. Supply Chain Manager</h3>
+                <p class="company">Paragon Group.</p>
+                <p>
+                  Leading the strategic planning, organization, and management
+                  of a central facility for procuring raw materials, machinery
+                  consumables, and contracts, with a strong focus on optimal
+                  pricing and superior quality standards.
+                </p>
+              </div>
+
+              <div class="resume-item">
+                <p class="year">2017-2019</p>
+                <h3>Procurement Manager</h3>
+                <p class="company">New Asia Group</p>
+                <p>
+                  Led the procurement department overseeing forecasting and
+                  inventory management, supporting the organization's average
+                  annual revenue of $200 million with a sustained 35% annual
+                  growth rate.
+                </p>
+              </div>
+
+              <div class="resume-item">
+                <p class="year">2007-2016 Dec.</p>
+                <h3>Deputy Procurement Manager</h3>
+                <p class="company">New Asia Group</p>
+                <p>
+                  Responsible for organizing and maintaining a central facility
+                  for the purchase of all goods, services, and contracts on the
+                  best price/quality basis. Also ensuring the smooth supply of
+                  material, consumables, and equipment to the company.
+                </p>
+              </div>
+
+              <div class="resume-item">
+                <p class="year">2003-2007</p>
+                <h3>Executive-Admin</h3>
+                <p class="company">APC Pharmaceuticals Ltd.</p>
+                <p>
+                  Responsible for prepared reports for a wide variety of company
+                  departments, such as production, laboratory, and human
+                  resources, using the entire Microsoft Office Suite.
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <div class="resume-detail education">
+            <h2 class="heading">My <span>Education</span></h2>
+            <p class="desc">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus
+              similique pariatur beatae blanditiis iure rerum omnis repellat
+              corrupti labore animi?
+            </p>
+            <div class="resume-list">
+              <div class="resume-item">
+                <p class="year">2019</p>
+                <h3>EMBA -Major Finance</h3>
+                <p class="company">Bangladesh University</p>
+                <p>
+                  🔹Excelled consistently with a strong academic performance,
+                  maintaining a CGPA of 3.83.<br />
+                  <br />
+                  🔹Gained advanced knowledge in corporate finance, budgeting,
+                  and financial planning applicable to real-world business
+                  challenges.
+                </p>
+              </div>
+
+              <div class="resume-item">
+                <p class="year">2010-2012</p>
+                <h3>MSS -Political Science</h3>
+                <p class="company">National University</p>
+                <p>
+                  Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                  Optio quisquam est perferendis accusantium dignissimos.
+                  Tempora nesciunt similique magnam rem labore.
+                </p>
+              </div>
+
+              <div class="resume-item">
+                <p class="year">2000-2002</p>
+                <h3>BSS -Political Science</h3>
+                <p class="company">National University</p>
+                <p>
+                  Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                  Optio quisquam est perferendis accusantium dignissimos.
+                  Tempora nesciunt similique magnam rem labore.
+                </p>
+              </div>
+
+              <div class="resume-item">
+                <p class="year">1997-1999</p>
+                <h3>HSC -Social of Arts</h3>
+                <p class="company">National University</p>
+                <p>
+                  Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                  Optio quisquam est perferendis accusantium dignissimos.
+                  Tempora nesciunt similique magnam rem labore.
+                </p>
+              </div>
+              <div class="resume-item">
+                <p class="year">1997-1999</p>
+                <h3>SSC -Social of Arts</h3>
+                <p class="company">National University</p>
+                <p>
+                  Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                  Optio quisquam est perferendis accusantium dignissimos.
+                  Tempora nesciunt similique magnam rem labore.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="resume-detail skills">
+            <h2 class="heading">My <span>Skills</span></h2>
+            <p class="desc">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus
+              similique pariatur beatae blanditiis iure rerum omnis repellat
+              corrupti labore animi?
+            </p>
+            <div class="resume-list">
+              <div class="resume-item">
+                <i class="bx bxl-html5"></i>
+                <span>html</span>
+              </div>
+
+              <div class="resume-item">
+                <i class="bx bxl-css3"></i>
+                <span>CSS</span>
+              </div>
+
+              <div class="resume-item">
+                <i class="bx bxl-tailwind-css"></i>
+                <span>Tailwind</span>
+              </div>
+
+              <div class="resume-item">
+                <i class="bx bxl-javascript"></i>
+                <span>JavaScript</span>
+              </div>
+
+              <div class="resume-item">
+                <i class="bx bxl-postgresql"></i>
+                <span>SQL</span>
+              </div>
+              <div class="resume-item">
+                <i class="bx bxl-php"></i>
+                <span>PHP</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="resume-detail about">
+            <h2 class="heading">About <span>Me</span></h2>
+            <p class="desc">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus
+              similique pariatur beatae blanditiis iure rerum omnis repellat
+              corrupti labore animi?
+            </p>
+            <div class="resume-list">
+              <div class="resume-item">
+                <p>Name<span>SM Alamgir Kabir</span></p>
+              </div>
+
+              <div class="resume-item">
+                <p>Gender<span>Male</span></p>
+              </div>
+
+              <div class="resume-item">
+                <p>Age<span>43 years old</span></p>
+              </div>
+
+              <div class="resume-item">
+                <p>Status<span>Married</span></p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!--Portfolio Section-->
+    <section class="portfolio">
+      <h2 class="heading">Latest <span>Project</span></h2>
+      <div class="portfolio-container">
+        <div class="portfolio-box">
+          <div class="portfolio-detail active">
+            <p class="numb">01</p>
+            <h3>Frontend Project</h3>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil,
+              alias!
+            </p>
+            <div class="tech">
+              <p>HTML5, CSS3, JavaScript</p>
+            </div>
+            <div class="live-github">
+              <a href="#"
+                ><i class="bx bx-arrow-back"></i><span>Live Project</span></a
+              >
+              <a href="#"
+                ><i class="bx bxl-github"></i><span>Github Repository</span></a
+              >
+            </div>
+          </div>
+          <div class="portfolio-detail">
+            <p class="numb">02</p>
+
+            <h3>Backend Project</h3>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil,
+              alias!
+            </p>
+            <div class="tech">
+              <p>SQL, MongoDB, PHP</p>
+            </div>
+            <div class="live-github">
+              <a href="#"
+                ><i class="bx bx-arrow-back"></i><span>Live Project</span></a
+              >
+              <a href="#"
+                ><i class="bx bxl-github"></i><span>Github Repository</span></a
+              >
+            </div>
+          </div>
+
+          <div class="portfolio-detail">
+            <p class="numb">03</p>
+          </div>
+
+          <div class="portfolio-detail">
+            <p class="numb">04</p>
+          </div>
+
+          <div class="portfolio-detail">
+            <p class="numb">05</p>
+          </div>
+
+          <div class="portfolio-detail">
+            <p class="numb">06</p>
+          </div>
+        </div>
+
+        <!--Image carousel-->
+        <div class="portfolio-box">
+          <div class="portfolio-carousel">
+            <div class="img-slide">
+              <div class="img-item">
+                <img
+                  src="images/Zero tech to sales pro cover page for amazon_1024x1024.png"
+                />
+              </div>
+              <div class="img-item">
+                <img src="images/Zero to Tech Sales Pro Cover_1024x1024.png" />
+              </div>
+              <div class="img-item">
+                <img
+                  src="images/Zero tech to sales pro cover page for amazon.jpg"
+                />
+              </div>
+              <div class="img-item">
+                <img src="images/Zero to Tech Sales Pro Cover.png" />
+              </div>
+            </div>
+          </div>
+          <!-- <div class="navigation">
+            <button class="arrow-left">
+              <i class="bx bx-chevron-left"></i>
+            </button>
+            <button class="arrow-right">
+              <i class="bx bx-chevron-right"></i> -->
+          <div class="navigation">
+            <button class="arrow-left disabled">
+              <i class="bx bx-chevron-left"></i>
+            </button>
+            <button class="arrow-right">
+              <i class="bx bx-chevron-right"></i>
+            </button>
+          </div>
+        </div>
+      </div>
+      <!-- </div> -->
+    </section>
+
+    <section class="Contact">
+      <div class="contact-container">
+        <div class="contact-box">
+          <h2>Let's Work Together</h2>
+          <p class="desc">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime,
+            praesentium!
+          </p>
+          <div class="contact-detail">
+            <i class="bx bxs-phone"></i>
+            <div class="detail">
+              <p>Phone</p>
+              <p>+880 1712958261</p>
+            </div>
+          </div>
+          <div class="contact-detail">
+            <i class="bx bxs-envelope"></i>
+            <div class="detail">
+              <p>Email</p>
+              <p>aKabirProcurement@gmial.com</p>
+            </div>
+          </div>
+          <div class="contact-detail">
+            <i class="bx bx-map"></i>
+            <div class="detail">
+              <p>Adress</p>
+              <p>Dhaka, Bangladesh</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="contact-box">
+          <form action="">
+            <h2 class="heading">Contact <span>Me!</span></h2>
+            <div class="field-box">
+              <input type="text" placeholder="Full Name" required />
+              <input type="email" placeholder="Email Address" required />
+              <input type="text" placeholder="Phone Number" required />
+              <input type="text" placeholder="Email Subject" required />
+              <textarea
+                name=""
+                id=""
+                placeholder="Your Message"
+                required
+              ></textarea>
+            </div>
+            <button type="submit" class="btn">Send Message</button>
+          </form>
+        </div>
+      </div>
+    </section>
+    <!--custom js-->
+    
+    <script src="{{ asset('js/app.js') }}"></script>
+    <script src="{{ asset('js/iosdevice.js') }}"></script>
+       
+        
+    
+  </body>
+</html>
